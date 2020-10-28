@@ -1,4 +1,8 @@
 /*GENERAL*/
+* {
+    color: rgb(88, 39, 88);
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 31, 0.897);
@@ -27,7 +31,7 @@ h2{
 h1{
     font-size: 55px;
     text-align: left;
-    color: rgb(88, 39, 88) ;
+    color: rgb(88, 39, 88);
 }
 
 #menu{
