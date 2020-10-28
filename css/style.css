@@ -16,7 +16,12 @@ footer p {
 
 p{
     font-size: 40px;
-    text-align: center;   
+    text-align: center; 
+    color: rgb(88, 39, 88);  
+}
+
+h2{
+    color: rgb(88, 39, 88);
 }
 
 h1{
