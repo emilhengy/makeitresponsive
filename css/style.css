@@ -1,0 +1,210 @@
+/*GENERAL*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 31, 0.897);
+    
+}
+footer {
+    margin-top: 5vw;
+}
+
+footer p {
+    font-size: 1vw;
+    color: rgb(88, 39, 88);
+}
+
+
+p{
+    font-size: 40px;
+    text-align: center;   
+}
+
+h1{
+    font-size: 55px;
+    text-align: left;
+    color: rgb(88, 39, 88) ;
+}
+
+#menu{
+    overflow: hidden;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    
+}
+
+#menu img{
+    height: 100px;
+    float: left;
+}
+
+#menu a{
+    float: right;
+    font-size: 25px;
+    background-color: transparent;
+    background-color: transparent;
+    width: auto;
+    color: rgb(88, 39, 88);
+    text-decoration: none;
+    padding-top: 1vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-bottom: 1vw; 
+    border-right: solid;
+    border-width: 4px;
+    border-color: rgb(88, 39, 88);
+}
+
+.container{
+    height: auto;
+    display: flex;
+    width: 100%;
+}
+
+.box1{
+    
+    flex: 6;
+    margin: 5%;
+    padding-bottom: 0px;
+    text-align: center;
+    
+}
+
+.box1 h1{
+    text-align: center;
+    
+}
+
+.box1 p{
+    margin-bottom: 12%;
+    font-size: 2vw;
+    color:  rgb(88, 39, 88);
+}
+
+.box2{
+    flex: 4;
+    overflow: hidden;
+    margin: 5%;
+    margin-top: 25px;   
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.box3{
+    flex: 1;
+    margin: 5%;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.box3 img{
+    width: 100%;
+}
+
+.box4 {
+    flex: 1;
+    padding: 5%;
+}
+
+.box4 img {
+    width: 100%;
+}
+
+.box4 h2{
+    text-align: center;
+}
+.box4  p{
+    font-size: 1.4vw;
+}
+
+.plan-select{
+    border: 2px solid rgb(88, 39, 88);
+    border-radius: 2vw;
+    background: transparent;
+    color:rgb(88, 39, 88);
+    width: 100%;
+    font-size: 2vw;
+    cursor: pointer;  
+    height: auto;
+    padding-right: 13%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    text-align: center;
+}   
+
+.plan-select:hover{
+    background-color: rgb(250, 255, 182);
+    opacity: 95%;
+    transition: 0.3s;
+}
+
+#menu a:hover{
+    /*background-color: rgb(241, 255, 40);*/
+    opacity: 95%;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+@media screen and (max-width: 40em){
+    .container{
+        display: block; 
+    }
+
+    .box1 p{
+        font-size: 3vw;
+    }
+
+    .box1 a{
+        font-size: 3vw;
+    }
+
+    .box2 p{
+        font-size: 3vw;
+    }
+
+    .box3 p{
+        font-size: 3vw;
+    }
+
+    .box4 p{
+        font-size: 3vw;
+    }
+
+    footer p{
+        font-size: 3vw;
+    }
+}
